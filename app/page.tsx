@@ -7,7 +7,7 @@ export default function Home() {
   const [name, setName] = useState('');
   
   const increment = () => {
-    setCount(prevCount => prevCount + 1);
+    setCount(prevCount => prevCount + 2);
   };
   
   const decrement = () => {
